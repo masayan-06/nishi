@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>西澤式適性診断アプリ</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -34,7 +36,7 @@
           <% end %>
 
           <div class="signup_login-path">
-            <p><span>------------</span> 新しいお客様ですか？アカウントをお持ちですか？ <span>------------</span></p>
+            <p><span>-------</span> アカウントをお持ちですか？ <span>-------</span></p>
             <%= link_to "アカウントを作成", new_user_registration_path %>
             <%= link_to "ログイン", new_user_session_path %>
           </div>

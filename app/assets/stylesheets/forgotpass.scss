@@ -45,3 +45,33 @@
 .signup_login-path a:hover {
   background: #e7e9ec;
 }
+
+@media only screen and (max-width: 615px) {
+  .forgotpass-title{
+    font-size: 20px;
+    color: #000000;
+    font-family: "ヒラギノ角ゴ Pro W8";
+    font-weight: bold;
+    padding:30px 0px 10px 0px;
+    margin:10px 0px 20px 0px;
+  }
+
+  .forgotpass {
+    width: 300px;
+    height: 470px;
+    margin: 60px auto 60px auto;
+    text-align: center; 
+    background-color: #ffffff;
+  }
+  
+  .box-email input[type="email"], .box-password input[type="password"] {
+    border-style: none;
+    box-sizing: border-box;
+    width: 280px;
+    height: 31px;
+    border: 1px solid #a6a6a6;
+    box-shadow: 0 1px 0 rgba(0,0,0,.07) inset;
+    border-radius: 3px;
+    padding: 0 7px;
+  }
+}
