@@ -7,7 +7,7 @@ class CardsController < ApplicationController
 
   def plan #定期課金プラン
     Payjp::Plan.create(
-      :amount => 1000,
+      :amount => 50,
       :interval => 'month',
       # :billing_day => null,
       :currency => 'jpy',
