@@ -28,7 +28,7 @@
             <%= f.text_field :card_number, id: "card_number",class: "card_form1",maxlength: '16' %>
             <div class="card-lim">有効期限</div>
             <%= f.collection_select :exp_month , Month.all, :id, :name , {},class: "card-check-box",id: "exp_month" %>
-            <%= f.collection_select :exp_year, Year.all, :id, :name, {}, class: "card-check-box",id: "exp_year"  %>
+            <%= f.collection_select :exp_year, Year.all, :id, :name, {}, class: "card-check-box",id: "exp_year" %>
             <div class="card-cord">セキュリティコード</div>
             <%= f.password_field :cvc, id: 'cvc',class: "card_form2" ,maxlength: '6',autocomplete: "on" %>
             <div class="card-btn-column" id="card_token"></div>
