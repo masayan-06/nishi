@@ -13,7 +13,7 @@ document.addEventListener(
     });
     if (document.getElementById("token_submit") != null) {
       // "token_submit"というidをもつhtmlがあるページか？つまりカード作成ページか
-      Payjp.setPublicKey("pk_test_bf8f6b07458f0197ea990312"); 
+      Payjp.setPublicKey("pk_live_a2d8cce86b8583cf5891a257"); 
       let btn = document.getElementById("token_submit");  // 送信ボタンをbtnに格納
       btn.addEventListener("click", e => {  // 送信ボタンがクリックされたとき
         e.preventDefault(); // デフォルトのブラウザの動きをいったんとめる(createアクションへの遷移を)
