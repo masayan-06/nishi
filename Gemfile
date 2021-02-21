@@ -76,3 +76,4 @@ gem 'payjp'
 
 gem 'active_hash'
 
+gem 'dotenv-rails'
