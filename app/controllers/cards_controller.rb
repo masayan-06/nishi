@@ -9,7 +9,7 @@ class CardsController < ApplicationController
     Payjp::Plan.create(
       :amount => 50,
       :interval => 'month',
-      # :billing_day => null,
+      :billing_day => 10,
       :currency => 'jpy',
     )
   end
