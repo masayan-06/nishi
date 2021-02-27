@@ -48,7 +48,8 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
+  host: nishi-mysql.cgxswcqlpn0g.ap-northeast-1.rds.amazonaws.com
   database: nishi_production
-  username: nishi
+  username: admin
   password: <%= ENV['NISHI_DATABASE_PASSWORD'] %>
+  pool: 5
